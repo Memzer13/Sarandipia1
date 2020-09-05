@@ -1,10 +1,23 @@
+html {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url(lav2.otf);
 }
 
+.navbar {
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
 .header {
-	background-image: url(banner2.jpg);
+	background-image: url(banner8.jpg);
 	background-repeat: no-repeat;
 	color: white;
 	cursor: default;
@@ -15,10 +28,10 @@
 }
 h1 {
 	cursor: default;
-	font-size: 120px;
+	font-size: 150px;
 	text-align: center;
 	margin-top: 55px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	font-family: myFirstFont;
 }
 .p1 { 

@@ -1,0 +1,50 @@
+html {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(lav2.otf);
+}
+
+h1 {
+	color: white;
+	cursor: default;
+	font-size: 50px;
+	font-family:  'Poiret One', cursive;
+	padding: 20px 20px;
+	font-weight: bold;
+}
+
+body {
+	background-image: url(cactus3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+form {
+  width: 400px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.header {
+	text-decoration-color: white;
+}
+.navbar {
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.testbox {
+	padding: 20px;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 20px;
+	width: 65%;
+}

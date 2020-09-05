@@ -1,0 +1,42 @@
+html {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(lav2.otf);
+}
+
+.navbar {
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.background-image: {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	background-size: cover;
+}
+
+h1 {
+	cursor: default;
+	font-size: 50px;
+	font-family:  'Poiret One', cursive;
+	padding: 20px;
+	font-style: italic;
+}
+
+p { 
+	font-family: 'Poiret One', cursive;
+	padding: 20px 20px 10px;
+	cursor: default;
+	color: black;
+	font-size: 30px;
+	line-height: 25px;
+}
