@@ -17,7 +17,9 @@ body {
     font-size:5em;
     transition: all 0.3s linear;
     padding: 35px;
-}
+    display: flex;
+    cursor: default;
+ }
 
 .yellow {
     color:#FFF;
@@ -70,6 +72,7 @@ body {
 
 p {
     font-size: 4em;
+    display: inline-block;
 }
 
 text {
@@ -154,6 +157,7 @@ img {
 .red {
     background-image: url(banner8.jpg);
     background-repeat: no-repeat;
+    width: 100%;
  }
 
 /***********************************************************************
