@@ -74,6 +74,9 @@ body {
     display: flex;
 }
 
+w {
+    color: #878686;
+}
 p {
     font-size: 4em;
 }
@@ -159,7 +162,6 @@ img {
 .red {
     background-image: url(banner8.jpg);
     background-repeat: no-repeat;
-    width: 100%;
  }
 
 /***********************************************************************
