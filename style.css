@@ -19,6 +19,7 @@ body {
     padding: 35px;
     display: flex;
     cursor: default;
+    height: 100%;
  }
 
 .yellow {
@@ -51,9 +52,7 @@ body {
 /***********************************************************************
  *  Cover
  **********************************************************************/
-.container {
-    /*show heigh: auto*/
-    height: 58vh; 
+.container { 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,23 +62,26 @@ body {
     font-family: myFirstFont;
 }
 
-.content {
-    padding: 55px;
+.primera {
+    padding: 40px;
+    text-align: center;
+    margin: 35px;
+    border: none;
+    height: 0px;
 }
+
 .h3 {
     display: flex;
 }
 
 p {
     font-size: 4em;
-    display: inline-block;
 }
 
 text {
     font-size: 1.4em;
     font-family: 'Poiret One', cursive;
     display: flex;
-    align-items: right;
     justify-content: center;
     cursor: default;
     display: inline-block;
@@ -113,7 +115,7 @@ img {
 .box {
     padding: 15px;
     margin: 35px;
-    border-radius: 20px;
+    border-radius: 0px;
     font-family: 'Poiret One', cursive;
     background-color: #F5F5F5;
     font-weight: bold;
