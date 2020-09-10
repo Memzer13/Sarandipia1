@@ -16,6 +16,7 @@ body {
     color:#FFF;
     font-size:5em;
     transition: all 0.3s linear;
+    padding: 35px;
 }
 
 .yellow {
@@ -62,6 +63,7 @@ body {
 
 .content {
     padding: 35px;
+    flex-wrap: wrap;
 }
 .h3 {
     display: flex;
@@ -88,9 +90,6 @@ img {
     padding: 10px;
 }
 
-.fam {
-
-}
 .ninos {
     text-align: right;
 }
@@ -163,7 +162,7 @@ img {
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    opacity: 0.2;
+    opacity: 0.3;
     background: #c6d0db; /* Old browsers */
     background: -moz-linear-gradient(top, #c6d0db 0%, #4e5864 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6d0db), color-stop(100%,##4e5864)); /* Chrome,Safari4+ */
