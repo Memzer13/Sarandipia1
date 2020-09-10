@@ -62,8 +62,7 @@ body {
 }
 
 .content {
-    padding: 35px;
-    flex-wrap: wrap;
+    padding: 55px;
 }
 .h3 {
     display: flex;
@@ -82,7 +81,6 @@ text {
     cursor: default;
     display: inline-block;
     padding: 35px;
-    word-wrap: break-word;
 }
 
 img {
